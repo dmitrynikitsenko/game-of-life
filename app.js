@@ -34,7 +34,7 @@
 
   //Create new table before find neighbor
   function createTable(arrValues, column) {
-
+    let el;
     app.innerHTML = '';
 
     for (let i = 0; i < arrValues.length; i++) {
